@@ -138,7 +138,9 @@ button {
 
 
 
-.info {}
+.info {
+  margin-bottom: 160px;
+}
 
 .info-wrap {
   display: flex;
@@ -175,6 +177,19 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.info-link {
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: rgb(14, 23, 52);
+  color: rgb(255, 255, 255);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
 }
